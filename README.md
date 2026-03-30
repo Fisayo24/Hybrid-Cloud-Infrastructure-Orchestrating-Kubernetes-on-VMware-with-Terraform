@@ -11,7 +11,7 @@ This repository documents the successful deployment of a 2-node Kubernetes clust
 
 ### 1. Cluster Health Status
 Verification of the control plane and worker node in a 'Ready' state using `kubectl get nodes`.
-![Cluster Success](./images/k8s-ubuntu2404-cluster-success.png)
+![Cluster Success]![Success](./images/k8s-ubuntu2404-cluster-success.png)
 
 ---
 ## Application Delivery (Nginx)
