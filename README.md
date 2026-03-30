@@ -11,18 +11,20 @@ This repository documents the successful deployment of a 2-node Kubernetes clust
 
 ### 1. Cluster Health Status
 Verification of the control plane and worker node in a 'Ready' state using `kubectl get nodes`.
-(./images/k8s-ubuntu2404-cluster-success.png)
+![Cluster Success](./images/k8s-ubuntu2404-cluster-success.png)
 
+---
 ## Application Delivery (Nginx)
 I deployed a 4-replica Nginx "Web Farm" to test the cluster's orchestration and load-balancing capabilities.
 
 ### 2. Service Configuration & NodePort
 The deployment was exposed via a NodePort Service, mapping the internal container port to an external port (**32006**) for host-machine access.
-(./images/k8s-nginx-service-success.png)
+![Service Success](./images/k8s-nginx-service-success.png)
 
 ### 3. Browser Validation (End-to-End Test)
 This final validation proves that the networking, firewall rules, and pod routing are functioning correctly. The Nginx welcome page is reachable from the external browser.
-(./images/k8s-nginx-browser-validation.png)
+![Browser Validation](./images/k8s-nginx-browser-validation.png)
+
 ---
 
 ## 🔧 Troubleshooting Log
