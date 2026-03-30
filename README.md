@@ -10,7 +10,8 @@ This repository documents the successful deployment of a 2-node Kubernetes clust
 * **Networking:** Flannel CNI
 
 ### 1. Cluster Health Status
-Verification of the control plane and worker node in a 'Ready' state using `kubectl get nodes`.
+Verification of the control plane and worker <img width="960" height="504" alt="k8s-ubuntu2404-cluster-success" src="https://github.com/user-attachments/assets/49be5cf8-4092-4f53-9629-72d86c797dab" />
+node in a 'Ready' state using `kubectl get nodes`.
 ![Cluster Success]![Success](./images/k8s-ubuntu2404-cluster-success.png)
 
 ---
@@ -23,7 +24,8 @@ The deployment was exposed via a NodePort Service, mapping the internal containe
 
 ### 3. Browser Validation (End-to-End Test)
 This final validation proves that the networking, firewall rules, and pod routing are functioning correctly. The Nginx welcome page is reachable from the external browser.
-![Browser Validation](./images/k8s-nginx-browser-validation.png)
+![Browser Validation](./images/k<img width="960" height="504" alt="k8s-nginx-browser-validation png" src="https://github.com/user-attachments/assets/45feaf4e-32e7-4cf1-b826-b9a9ed74952a" />
+8s-nginx-browser-validation.png)
 
 ---
 
