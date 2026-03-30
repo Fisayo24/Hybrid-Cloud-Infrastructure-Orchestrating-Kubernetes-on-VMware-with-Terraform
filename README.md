@@ -30,6 +30,6 @@ This final validation proves that the networking, firewall rules, and pod routin
 
 ---
 
-## 🔧 Troubleshooting Log
+## Troubleshooting Log
 * **Cgroup Mismatch:** Resolved a `CrashLoopBackOff` by reconfiguring `containerd` to use the `SystemdCgroup` driver to align with Ubuntu 24.04.
 * **Kernel Stability:** Configured permanent swap disablement and loaded `br_netfilter` modules to ensure networking persistence across reboots.
