@@ -20,7 +20,8 @@ I deployed a 4-replica Nginx "Web Farm" to test the cluster's orchestration and 
 
 ### 2. Service Configuration & NodePort
 The deployment was exposed via a NodePort Service, mapping the internal container port to an external port (**32006**) for host-machine access.
-![Service Success](./images/k8s-nginx-service-success.png)
+![Service Success](./images/k8s<img width="960" height="504" alt="k8s-service-deployment-verification" src="https://github.com/user-attachments/assets/4393c1ae-48d8-47ac-8e3c-3ac07fc81ddb" />
+-nginx-service-success.png)
 
 ### 3. Browser Validation (End-to-End Test)
 This final validation proves that the networking, firewall rules, and pod routing are functioning correctly. The Nginx welcome page is reachable from the external browser.
